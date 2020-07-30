@@ -1,0 +1,9 @@
+.card{
+    display:inline-block;
+    margin-left:120px;
+    margin-bottom:32px;}
+    #avocadorecipe, #spinachsaladrecipe, #cbrecipe, #yogurtrecipe,#pancakerecipe, #squashrecipe, #pastarecipe, #burritorecipe, #tacorecipe, #ssmoothierecipe, #gsmoothierecipe, #bsmoothierecipe{
+        display:none;
+        overflow:scroll;
+        height:200px;
+    }

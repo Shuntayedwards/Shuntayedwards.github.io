@@ -1,0 +1,38 @@
+body {
+  background-color: beige;
+}
+.navbar {
+  background-color: beige;
+}
+.navbar-brand {
+  position: relative;
+  left: 50px;
+}
+.navbarList {
+  position: relative;
+  left: 300px;
+}
+.nav-link {
+  letter-spacing: 4px;
+}
+footer {
+  background-color: beige;
+}
+.social a {
+  font-size: 5em;
+  padding: 3rem;
+}
+.fa-facebook {
+  color: #3b5998;
+}
+.fa-instagram {
+  color: #517fa4;
+}
+.fa-youtube {
+  color: #bb0000;
+}
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-youtube:hover {
+  color: #8d8686;
+}

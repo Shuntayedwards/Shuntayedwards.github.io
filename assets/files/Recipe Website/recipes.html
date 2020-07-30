@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Recipe </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+        <link rel="stylesheet" href="css/recipepage.css">
+    </head>
+
+    <body>
+    <!--Navigation Section-->
+        <nav class="navbar navbar-expand-md navbar-light sticky-top">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.jpg" width="50" height="50" alt="logo">
+                <span>ICAN COOK</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="recipes.html" class="nav-link active">Recipes</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Browse Recipes" aria-label="search">
+                    <button class="btn btn-success my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    <!--Recipe Section-->
+
+        <article>
+            <h1 class="text-center">Recipes</h1>
+            <hr class='light' />
+            <div class="card" style="width: 18rem;" id="avocadotoastcard">
+                <img src="img/avocadotoast.jpg" class="card-img-top" alt="Avocado Toast">
+                <div class="card-body">
+                    <h5 class="card-title">Avocado Toast</h5>
+                    <p class="card-text">Delicious Avocado Spinach Toast</p>
+                    <a href="#avocadotoastcard" class="btn btn-secondary" id="avocadotoggle">See Recipe</a>
+                    <div id="avocadorecipe">
+                        <p>
+                            <ul>
+                                <li>3 pieces of your choice of bread (I used Ezekiel Sprouted Whole Grain)</li>
+                                <li>2 large ripe avocados</li>
+                                <li>3 cups of uncooked spinach</li>
+                                <li>1/4 cup cherry tomatoes, sliced</li>
+                                <li>1/2 lemon</li>
+                                <li>Olive Oil</li>
+                                <li>Chili Flakes</li>
+                            </ul>
+                            <ol>
+                                <li>Toast your bread and put aside.</li>
+                                <li>While bread is toasting, heat up about 1 tablespoon of olive oil in a pan. Add spinach
+                                    and cook for about 3-4 minutes or until wilted (but not until it is completely soft).</li>
+                                <li>Scoop your avocado out into a bowl and mash with a fork. Spread on toast.</li>
+                                <li>Top your toast with spinach, tomatoes, and red chili flakes. Drizzle a bit of olive oil
+                                    and squeeze some lemon juice on each slice for extra flavor.</li>
+                            </ol>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;" id="spinachsaladcard">
+                <img src="img/spinachsalad.jpg" class="card-img-top" alt="Spinach Salad">
+                <div class="card-body">
+                    <h5 class="card-title">Spinach Salad</h5>
+                    <p class="card-text">Quick Pomegranate Spinach Salad</p>
+                    <a href="#spinachsaladcard" class="btn btn-secondary" id="spinachsaladtoggle">See recipe</a>
+                    <div id="spinachsaladrecipe">
+                        <p>
+                            <ul>
+                                <li>1 (10 ounce) bag baby spinach leaves, rinsed and drained</li>
+                                <li>2 ounces of sautéed chicken breast</li>
+                                <li>1/4 cup alfalfa sprouts (optional)</li>
+                                <li>1 pomegranate, peeled and seeds separated</li>
+                                <li>4 tablespoons balsamic vinaigrette</li>
+                            </ul>
+                            <ol>
+                                <li>1. Place spinach in a salad bowl with chicken. Sprinkle pomegranate seeds over the top,and drizzle with vinaigrette.</li>
+                            </ol>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;" id="cbcard">
+                <img src="img/chickenandgreenbeans.jpg" class="card-img-top" alt="Chicken and Green Beans">
+                <div class="card-body">
+                    <h5 class="card-title">Chicken and Green Beans</h5>
+                    <p class="card-text">Yummy Chicken and Green Beans</p>
+                    <a href="#cbcard" class="btn btn-secondary" id="cbtoggle">See Recipe</a>
+                    <div id="cbrecipe">
+                        <p>
+                            <ul>
+                                <li>1 pound boneless skinless chicken breasts cubed</li>
+                                <li>1/2 teaspoon salt</li>
+                                <li>1/4 teaspoon pepper</li>
+                                <li>4 cups green beans trimmed and cut in 1 in. pieces</li>
+                                <li>1/4 cup chicken broth low sodium</li>
+                                <li>2 tablespoons hoisin sauce</li>
+                                <li>1 clove garlic minced</li>
+                                <li>2 tablespoons rice wine vinegar</li>
+                                <li>2 tablespoons soy sauce low sodium</li>
+                                <li>2 tablespoons minced ginger</li>
+                                <li>2 teaspoons sesame oil</li>
+                                <li>1 teaspoon chili paste</li>
+                                <li>scallions and brown rice - to serve optional</li>
+                            </ul>
+                            <ol>
+                                <li>Pre-heat a wok or deep frying pan over high heat and spray with cooking spray.</li>
+                                <li>Sprinkle chicken cubes with salt and pepper and stir-fry until brown, about 7-9 minutes, stirring frequently. Remove chicken from wok and set aside.</li>
+                                <li>Add green beans to the pan and toss until they start to soften, about 2-3 minutes.</li>
+                                <li>In a small bowl, whisk together all remaining ingredients: chicken broth through chili paste. Pour mixture into the wok and bring to a boil then reduce to simmer. Stir-fry until green beans are tender.</li>
+                                <li>Add chicken back to the wok and toss until heated through.</li>
+                                <li>Sprinkle with scallions and serve over brown rice if you wish.</li>
+                            </ol>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;" id="yogurtcard">
+                <img src="img/strawberry blueberry yogurt.jpg" class="card-img-top" alt="Strawberry Bluberry Yogurt">
+                <div class="card-body">
+                    <h5 class="card-title">Parfait</h5>
+                    <p class="card-text">Parfait with Assorted Berries</p>
+                    <a href="#yogurtcard" class="btn btn-secondary" id="yogurttoggle">See Recipe</a>
+                    <div id="yogurtrecipe">
+                        <p>
+                            <ul>
+                                <li>3 cups vanilla nonfat yogurt</li>
+                                <li>1 cup fresh or defrosted frozen strawberries in juice</li>
+                                <li>1 pint fresh blackberries, raspberries or blueberries</li>
+                                <li>1 cup good quality granola(optional)</li>
+                            </ul>
+                            <ol>
+                                <li>Layer 1/3 cup vanilla yogurt into the bottom each of 4 tall glasses. Combine defrosted strawberries, blackberries, and raspberries. Serve parfaits immediately to keep granola crunchy.</li>
+                            </ol>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;" id="pancakecard">
+                <img src="img/pancake.jpg" class="card-img-top" alt="Pancake">
+                <div class="card-body">
+                    <h5 class="card-title">Pancake</h5>
+                    <p class="card-text">Pancake</p>
+                    <a href="#pancakecard" class="btn btn-secondary" id="pancaketoggle">See Recipe</a>
+                    <div id="pancakerecipe">
+                        <p>
+                            <ul>
+                                <li>1 cup all-purpose flour</li>
+                                <li>2 tbsp. sugar</li>
+                                <li>2 1/2 tsp. baking powder</li>
+                                <li>1/2 tsp. salt</li>
+                                <li>1 1/4 cup milk or buttermilk</li>
+                                <li>3 tbsp. butter, melted</li>
+                                <li>1 large egg</li>
+                                <li>vegetable oil for brushing pan</li>
+                            </ul>
+                            <ol>
+                                <li>In large bowl, whisk flour, sugar, baking powder, and salt. Add milk, butter and, egg; stir until flour is moistened.</li>
+                                <li>Heat 12-inch nonstick skillet or griddle over medium heat until drop of water sizzles; brush lightly with oil. In batches, scoop batter by scant 1/4-cupfuls into skillet, spreading to 3 1/2 inches each. Cook 2 to 3 minutes or until bubbly and edges are dry. With wide spatula, turn; cook 2 minutes more or until golden. Transfer to platter or keep warm on a cookie sheet in 225°F oven.</li>
+                                <li>Repeat with remaining batter, brushing griddle with more oil if necessary.</li>
+                            </ol>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;" id="squashcard">
+                <img src="img/Squash.jpg" class="card-img-top" alt="Squash Soup">
+                <div class="card-body">
+                    <h5 class="card-title">Squash Soup</h5>
+                    <p class="card-text">Savory Butternut Squash Soup</p>
+                    <a href="#squashcard" class="btn btn-secondary" id="squashtoggle">See recipe</a>
+                    <div id="squashrecipe">
+                        <p>
+                            <ul>
+                                <li>2 tbsp butter or olive oil</li>
+                                <li>1.5 cups chopped yellow onion</li>
+                                <li>1/4 tsp salt</li>
+                                <li>1/8 tsp black pepper</li>
+                                <li>1 3- lb roasted butternut squash</li>
+                                <li>1/8 tsp ground cinnamon</li>
+                                <li>6 cups vegetable or chicken stock</li>
+                            </ul>
+                            <ol>
+                                <li>Melt the butter in a soup pot over medium heat, then add the onion, salt, and pepper, and cook for 10 minutes, until the onions are soft.</li>
+                                <li>Add the roasted butternut squash cubes and cinnamon, and stir for 2 minutes, until the cinnamon smells fragrant.</li>
+                                <li>Add the stock, bring the liquid to a boil over high heat, then reduce to a simmer. Cook for 2 minutes at a simmer.</li>
+                                <li>Puree the soup, either using an immersion blender, or by cooling the soup slightly and blending in a blender (you will likely need to do this in batches).</li>
+                                <li>Taste the soup, and see if it needs more seasoning.</li>
+                                <li>Serve as is, or with a drizzle of heavy cream and a few pumpkin seeds, if desired. Enjoy!</li>
+                            </ol>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;" id="pastacard">
+                <img src="img/Pasta.jpg" class="card-img-top" alt="Pasta">
+                <div class="card-body">
+                    <h5 class="card-title">Penne Pasta</h5>
+                    <p class="card-text">Aromatic Red Sauce Pasta</p>
+                    <a href="#pastacard" class="btn btn-secondary" id="pastatoggle">See Recipe</a>
+                    <div id="pastarecipe">
+                        <p>
+                            <ul>
+                                <li>225 gm pasta penne</li>
+                                <li>4 cloves garlic</li>
+                                <li>2 teaspoon basil</li>
+                                <li>3 pinches salt</li>
+                                <li>2 pinches powdered black pepper</li>
+                                <li>2 red chilli</li>
+                                <li>450 gm roma tomato</li>
+                                <li>1/2 teaspoon chilli flakes</li>
+                                <li>1 tablespoon parsley</li>
+                                <li>1 1/2 tablespoon extra virgin olive oil</li>
+                                <li>3 cup water</li>
+                                <li>Parsley(for Garnish)</li>
+                            </ul>
+                            <ol>
+                                <li>To prepare this mouth-watering and spicy pasta recipe, first you need to prepare the
+                                    sauce for the pasta. For the same, heat oil in a pan over medium flame and add minced
+                                    garlic along with chopped red chilli and red chili flakes in it. Stir and saute for 2
+                                    minutes. Take another pan, pour the water and bring it to a boil. Then, add pasta to the
+                                    boiling water along with salt and oil, and cook the pasta for a few minutes. When its
+                                    cooked, drain the extra water and transfer the pasta in another bowl.</li>
+                                <li>Now, add the peeled tomatoes, basil and parsley in the pan. Mix all the ingredients well
+                                    and let it simmer for 10 minutes until the sauce starts to thicken. When the sauce
+                                    starts gaining consistency, put off the burner and add salt and black pepper powder to
+                                    the sauce. Keep the sauce warm. Add the pasta over the warm sauce and toss with
+                                    carefully.</li>
+                                <li>Cook for a while and then serve the Red Sauce Pasta immediately. (Tip: If you are
+                                    someone who likes the cheesy version of pasta then you can garnish the pasta with some
+                                    grated Parmesan cheese and to make it more aromatic, you can dry roast a few basil
+                                    leaves and crush it with some chilli flakes and oregano. This herb fusion will make your
+                                    pasta even more delectable. Serve it with garlic bread and relish this delicious pasta
+                                    recipe.)</li>
+                            </ol>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;" id="burritocard">
+                <img src="img/chickenburrito.jpg" class="card-img-top" alt="Chicken Burrito">
+                <div class="card-body">
+                    <h5 class="card-title">Chicken Burrito</h5>
+                    <p class="card-text">Chipotle Chicken Burrito</p>
+                    <a href="#burritocard" class="btn btn-secondary" id="burritotoggle">See recipe</a>
+                    <div id="burritorecipe">
+                        <p>
+                            <ul>
+                                <li>1 tablespoon vegetable oil</li>
+                                <li>3/4 cup pico de gallo or fresh salsa</li>
+                                <li>1 chipotle chile in adobo sauce, chopped, plus 1 to 2 tablespoons sauce from the can</li>
+                                <li>1 14-ounce can pinto beans, drained and rinsed</li>
+                                <li>1 1/2 cups shredded rotisserie chicken, skin removed</li>
+                                <li>1/4 cup roughly chopped fresh cilantro</li>
+                                <li>Kosher salt</li>
+                                <li>4 burrito-size flour tortillas</li>
+                                <li>1 1/3 cups cooked white rice, warmed</li>
+                                <li>1 1/3 cups shredded monterey jack cheese (about 5 ounces)</li>
+                                <li>1 1/3 cups shredded romaine lettuce</li>
+                                <li>Guacamole, for serving (optional)</li>
+                            </ul>
+                            <ol>
+                                <li>Heat the vegetable oil in a medium pot over medium-high heat. Add 1/2 cup pico de gallo,
+                                    the chopped chipotle, and adobo sauce to taste; cook until the mixture starts to sizzle,
+                                    about 2 minutes. Add the beans and 3/4 cup water; bring to a low boil, then stir in the
+                                    chicken and cook until the mixture is slightly thickened, about 2 minutes. Stir in the
+                                    cilantro and season with salt.</li>
+                                <li>Heat the tortillas as the label directs. Arrange the rice horizontally in the lower half
+                                    of each tortilla, leaving a 1 1/2-inch border on all sides. Top evenly with the cheese,
+                                    chicken mixture, lettuce and the remaining pico de gallo.</li>
+                                <li>Fold the bottom edge of each tortilla snugly over the filling, tuck in the sides and
+                                    roll up tightly. Cut the burritos in half and serve with guacamole.</li>
+                            </ol>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;" id="tacocard">
+                <img src="img/Tacos.jpg" class="card-img-top" alt="Taco">
+                <div class="card-body">
+                    <h5 class="card-title">Tacos</h5>
+                    <p class="card-text">Steak Tacos</p>
+                    <a href="#tacocard" class="btn btn-secondary" id="tacotoggle">See Recipe</a>
+                    <div id="tacorecipe">
+                        <p>
+                            <ul>
+                                <li>1 pound flank steak </li>
+                                <li>2 tablespoons extra virgin olive oil</li>
+                                <li>2 cloves garlic</li>
+                                <li>Juice of 1 medium orange</li>
+                                <li>Juice of 1 medium lime</li>
+                                <li>1/2 tablespoon ground cumin</li>
+                                <li>1/2 teaspoon kosher salt</li>
+                                <li>1/4 teaspoon black pepper</li>
+                                <li>Canola oil </li>
+                                <li>8 7-inch corn or flour tortillas</li>
+                                <li>Shredded Monterey jack </li>
+                                <li>Other toppings: chopped fresh cilantro </li>
+                            </ul>
+                            <ol>
+                                <li>Place the flank steak in a baking dish. In a medium mixing bowl or large measuring cup,
+                                    stir together the olive oil, garlic, orange juice, lime juice, cumin, salt, and pepper.
+                                    Pour over the steak. Cover tightly with plastic and refrigerate for at least 1 hour or
+                                    up to 8 hours (do not marinate for more than 8 hours or the steak will break down and
+                                    soften too much).</li>
+                                <li>When ready to grill, remove the steak from the refrigerator and let stand at room
+                                    temperature while you prepare any toppings and preheat the grill. Preheat an outdoor
+                                    grill or indoor grill pan over medium-high heat (alternatively, you can cook the steak
+                                    under your broiler—place your oven rack in the upper third, usually the second closest
+                                    rack to the top). Brush the grill grates with oil. Remove the steak from the marinade,
+                                    shaking off any excess. Grill (or broil) the steak for about 3-4 minutes per side,
+                                    flipping once, until medium-rare (The steak should read 135 degrees F on an instant read
+                                    thermometer.) Remove the steak to a cutting board and cover with foil. Let rest for 5
+                                    minutes (this allows the juices to sink into the meat), then cut the steak into thin,
+                                    1/4-inch slices, slicing it across the grain.</li>
+                                <li> heat the tortillas: place them in a dry skillet heated over medium-high or heat them on
+                                    the grill for about 30 seconds per side, until warmed through.</li>
+                                <li>Assemble the tacos: fill the tortillas with a few slices of beef. Sprinkle with cheese
+                                    and any desired toppings. Enjoy immediately.
+                                </li>
+                            </ol>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <h1 class="text-center" id="Smoothies">Smoothies</h1>
+            <hr class="light pb-10px">
+
+            <div class="card" style="width: 18rem;" id="ssmoothiecard">
+                <img src="img/Strawberryshake.jpg" class="card-img-top" alt="Strawberry Smoothie">
+                <div class="card-body">
+                    <h5 class="card-title">Strawberry Smoothie</h5>
+                    <p class="card-text">Strawberry Smoothie</p>
+                    <a href="#ssmoothiecard" class="btn btn-secondary" id="ssmoothietoggle">See recipe</a>
+                    <div id="ssmoothierecipe">
+                        <p>
+                            <ul>
+                                <li>8 strawberries, hulled</li>
+                                <li>1/2 cup skim milk</li>
+                                <li>1/2 cup plain yogurt</li>
+                                <li>3 tablespoons white sugar</li>
+                                <li>2 teaspoons vanilla extract</li>
+                                <li>6 cubes ice, crushed</li>
+                            </ul>
+                            <ol>
+                                <li>In a blender combine strawberries, milk, yogurt, sugar and vanilla. Toss in the ice.
+                                    Blend until smooth and creamy. Pour into glasses and serve.</li>
+                            </ol>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;" id="gsmoothiecard">
+                <img src="img/greensmoothie.jpg" class="card-img-top" alt="Green Smoothie">
+                <div class="card-body">
+                    <h5 class="card-title">Green Smoothie</h5>
+                    <p class="card-text">Green Machine Smoothie</p>
+                    <a href="#gsmoothie" class="btn btn-secondary" id="gsmoothietoggle">See Recipe</a>
+                    <div id="gsmoothierecipe">
+                        <p>
+                            <ul>
+                                <li>1 ½ cups unsweetened almond milk</li>
+                                <li>2 cups spinach* frozen</li>
+                                <li>1 medium banana frozen</li>
+                                <li>1 cup fruit of choice**</li>
+                            </ul>
+                            <ol>
+                                <li>Put ingredients into the container of a Vitamix blender in the order listed.</li>
+                                <li>Start blending on low speed and increase to high.</li>
+                                <li>Blend on high speed for 50-60 seconds until mixture is smooth.</li>
+                                <li>Pour into glasses and enjoy!</li>
+                            </ol>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card" style="width: 18rem;" id="bsmoothiecard">
+                <img src="img/BeetJuice.jpeg" class="card-img-top" alt="Beet Juice">
+                <div class="card-body">
+                    <h5 class="card-title">Beet Smoothie</h5>
+                    <p class="card-text">Healthy Beet Smoothie</p>
+                    <a href="#bsmoothie" class="btn btn-secondary" id="bsmoothietoggle">See Recipe</a>
+                    <div id="bsmoothierecipe">
+                        <p>
+                            <ul>
+                                <li>1 small red beet, trimmed and peeled</li>
+                                <li>1 large apple, cored</li>
+                                <li>1 stalk of celery</li>
+                                <li>1 cup carrot juice</li>
+                                <li>1 cup almond milk</li>
+                                <li>2/3 cup frozen sliced peaches</li>
+                                <li>1-inch piece of ginger, peeled and sliced</li>
+                            </ul>
+                            <ol>
+                                <li>Roughly chop beet, apple, and celery.</li>
+                                <li>Add all ingredients in a blender, and mix until smooth. Taste the smoothie and see if
+                                    the sweetness is to your liking. Feel free to add a little more fruit if you want
+                                    something sweeter. Serve immediately. You can store smoothie in a jar for up to 2 days.
+                                </li>
+                            </ol>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <footer>
+            <div class="container-fluid padding">
+                <div class="row text-center padding">
+                    <div class="col-12">
+                        <h2 class="mt-3">FOLLOW US</h2>
+                    </div>
+                    <div class="col-12 social padding">
+                        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <hr class="light">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row text-align-center">
+                    <div class="col-md-6 text-center">
+                        <hr class="light">
+                        <img src="img/logo.jpg" width="25" height="25" alt="logo">
+                        <span>ICAN COOK</span>
+                        <hr class="light">
+                        <p>555-555-5555</p>
+                        <p>123 Street Name</p>
+                        <p>City, State 12345</p>
+                    </div>
+
+                    <div class="col-md-6 text-center">
+                        <hr class="light">
+                        <p>Virtual Hours</p>
+                        <hr class="light">
+                        <p>Monday-Friday: 8am-5pm</p>
+                        <p>Saturday: 8am-12pm</p>
+                        <p>Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <hr class="light">
+                <h5 class="mb-0">&copy;ICANCOOK.COM</h5>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+        <script src= "js/recipe.js"></script>
+        </script>
+    </body>
+</html>

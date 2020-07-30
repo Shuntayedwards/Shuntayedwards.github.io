@@ -1,0 +1,45 @@
+article {
+  background-image: url("../img/contactbgimg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 20% 90%;
+  color: rgb(63, 59, 59);
+  width: 1504;
+  height: 400px;
+}
+h2 {
+  display: block;
+  font-size: 28px;
+}
+.subBox {
+  display: inline-block;
+  margin: auto;
+}
+
+input[type="text"] {
+  display: block;
+  background-color: rgba(63, 59, 59, 0);
+  color: black;
+  box-sizing: border-box;
+  margin: 20px;
+  width: 220px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(117, 116, 116);
+  font-weight: 400px;
+  font-size: 15px;
+}
+input[type="submit"] {
+  margin: 20px;
+  width: 120px;
+  height: 32px;
+  background: #777;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  font-weight: 500px;
+  text-transform: uppercase;
+}
+input[type="submit"]:hover {
+  background-color: rgb(100, 97, 97);
+}
