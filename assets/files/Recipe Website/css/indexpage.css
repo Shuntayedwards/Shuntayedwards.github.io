@@ -9,8 +9,7 @@
   color: rgb(63, 59, 59);
 }
 .card {
-  display: inline-block;
-  margin: 16px;
+  margin: 8px auto;
 }
 
 .carouselimg {
@@ -23,4 +22,9 @@
 .carousel-caption h2 {
   text-transform: uppercase;
   text-shadow: 1px 1px 10px #000;
+}
+@media only screen and (max-width: 768px) {
+  .container-fluid {
+    text-align: center;
+  }
 }
